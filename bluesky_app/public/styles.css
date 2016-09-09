@@ -149,6 +149,17 @@ input[type=number] {
 
 section#dataSection {
 	margin: 0 33.33333333%;
+	border: 0 1px 1px 0 solid #3399ff;
+	border-radius: 10px;
+	padding: 10px;
+	background: -webkit-linear-gradient(top, #fff 0%, #F2F2F2 100%);
+	background: -moz-linear-gradient(top, #fff 0%, #F2F2F2 100%);
+	background: linear-gradient(top, #fff 0%, #F2F2F2 100%);
+	display: none;
+}
+
+section#dataSection p {
+	margin: 10px 0 0 0;
 }
 
 h2#responseMessage {
@@ -159,17 +170,6 @@ h2#responseMessage {
 	border-radius: 10px;
 	color: #fff;
 	font-weight: bold;
-	display: none;
-}
-
-article {
-	border: 1px solid #3399ff;
-	border-radius: 10px;
-	padding: 10px;
-	margin: 20px;
-	background: -webkit-linear-gradient(top, #fff 0%, #F2F2F2 100%);
-	background: -moz-linear-gradient(top, #fff 0%, #F2F2F2 100%);
-	background: linear-gradient(top, #fff 0%, #F2F2F2 100%);
 	display: none;
 }
 
@@ -190,10 +190,6 @@ p#forecast a {
 img {
 	height: 16px;
 	width: 16px;
-}
-
-article p {
-	margin: 10px 0 0 0;
 }
 
 footer {

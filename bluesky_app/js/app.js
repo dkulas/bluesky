@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
 
 	var getWeather = function() {
-		$("h2#responseMessage, h1#location, article p").empty();
-		$("article, h2#responseMessage, h1#location, article p").css("display", "none");
+		$("h2#responseMessage, h1#location, section#dataSection p").empty();
+		$("section#dataSection, h2#responseMessage, h1#location, section#dataSection p").css("display", "none");
 
 		var inputZipCode = document.getElementById("zipcode").value;
 
@@ -71,7 +71,7 @@ jQuery(document).ready(function($) {
 		  		$("#weatherConditions").append("<strong style='font-weight: bold;'>Conditions:&nbsp;&nbsp;</strong>" + weatherCondition).fadeIn();
 		  		$("#humidity").append("<strong style='font-weight: bold;'>Humidity:&nbsp;&nbsp;</strong>" + humidity).fadeIn();
 		  		$("#forecast").append("<strong style='font-weight: bold;'>Forecast:&nbsp;&nbsp;</strong>" + "<a href=" + forecast + " target=_blank rel=noopener>Extended Forecast</a>").fadeIn();
-		  		$("article").css({
+		  		$("section#dataSection").css({
 		  			"display": "block"
 		  		}).addClass("shadow");
 
