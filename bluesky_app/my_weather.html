@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blue Sky</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="This is a simple website that displays weather information using the Weather Underground API">
+	<meta name="viewport" content="initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="public/styles.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<noscript>
+	<div id="noscript" class="centerText">
+		<strong>Blue Sky</strong> requires JavaSript in order to work
+	</div>
+</noscript>
+
+<h1 id="title">Blue Sky&#9729;</h1>
+
+<main>
+	<section>
+		<form id="getWeather" class="centerText" method="get">
+			<input required type="number" name="zipcode" id="zipcode" placeholder="Search zip" class="shadow inputSimilarities centerText" autofocus="true" autocomplete="off">
+			<input type="button" form="getWeather" value="Go" id="submitBtn" class="shadow inputSimilarities hoverColorTransition">
+		</form>
+	</section>
+	<section id="dataSection">
+		<h2 id="responseMessage" class="centerText"></h2>
+			<article>
+				<h1 id="location"></h1>
+				<p id="temp"></p>
+				<p id="feelsLikeTemp"></p>
+				<p id="wind"></p>
+				<p id="weatherConditions"></p>
+				<p id="humidity"></p>
+				<p id="forecast"></p>
+			</article>
+	</section>
+</main>
+
+<footer>
+	<p class="centerText">created with <span>&#10084;</span> by <strong><a href="http://dannykulas.com/" target="_blank" class="hoverColorTransition">Danny Kulas</a></strong> | Powered by <strong><a href="https://www.wunderground.com" target="_blank" class="hoverColorTransition">Weather Underground</a></strong></p>
+</footer>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

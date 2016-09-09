@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+
+html {
+	height: 100%;
+}
+
+body {
+	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #c9dbe9 0%, #fff 100%);
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+.shadow {
+	-webkit-box-shadow: 1px 1px 1px 1px #99caff;
+  -moz-box-shadow:    1px 1px 1px 1px #99caff;
+  box-shadow:         1px 1px 1px 1px #99caff;
+}
+
+.inputSimilarities {
+	font-size: 1.5em;
+	outline: none;
+	border: 1px solid #3399ff;
+	padding: 5px;
+}
+
+.centerText {
+	text-align: center;
+}
+
+div#noscript {
+	font-size: 1.25em;
+	color: #fff;
+	background-color: maroon;
+	padding: 5px;
+}
+
+div#noscript strong {
+	font-weight: bold;
+}
+
+h1#title {
+	text-align: left;
+	font-size: 4.5em;
+	font-weight: bolder;
+	color: #fff;
+	padding: 10px;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+form#getWeather {
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	display: inline-block;
+}
+
+input#zipcode {
+	border-radius: 25px 0 0 25px;
+}
+
+input#submitBtn {
+	border-radius: 0 25px 25px 0;
+	background: #fff;
+	color: #A8A8A8;
+	cursor: pointer;
+}
+
+.hoverColorTransition {
+	transition: color 0.4s ease;
+}
+
+input#submitBtn:hover, a:hover {
+	color: #3399ff;
+}
+
+input#zipcode::-moz-focus-inner, input#submitBtn::-moz-focus-inner {
+	border: 0;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+   text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button  { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+section#dataSection {
+	margin: 0 33.33333333%;
+}
+
+h2#responseMessage {
+	margin-top: 10px;
+	padding: 10px 15px;
+	background-color: #ff8080;
+	border: 2px solid red;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+	display: none;
+}
+
+article {
+	border: 1px solid #3399ff;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+	background: -webkit-linear-gradient(top, #fff 0%, #F2F2F2 100%);
+	background: -moz-linear-gradient(top, #fff 0%, #F2F2F2 100%);
+	background: linear-gradient(top, #fff 0%, #F2F2F2 100%);
+	display: none;
+}
+
+h1#location {
+	border-bottom: 2px solid black;
+	margin: 0 0 10px 0;
+	padding: 0 0 5px 0;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+p#forecast a {
+	text-decoration: none;
+	color: blue;
+	outline: none;
+}
+
+img {
+	height: 16px;
+	width: 16px;
+}
+
+article p {
+	margin: 10px 0 0 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+}
+
+footer p {
+	padding: 0 0 5px 0;
+}
+
+footer p span {
+	color: red;
+}
+
+footer p strong {
+	font-weight: bold;
+}
+
+footer p strong a {
+	color: black;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+	h1#title {
+		text-align: center;
+	}
+}
+
+
