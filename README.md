@@ -1,10 +1,20 @@
-# bluesky
+Blue Sky
 
-download ALL the files
-open index.html with a text editor (like Sublime Text)
-right-click somewhere, anywhere, on the document until you see an option that says 'open in browser'
-enjoy
+A weather website application that is powered by Weather Underground and gives a weather snap-shot of whatever US zipcode you enter
 
-weather app powered by weather underground
-created with love by danny kulas
+Instructions
 
+Download ALL the files
+Open index.html with a text editor (like Sublime Text)
+Right-click somewhere, anywhere, on the document until you see an option that says 'open in browser'
+Click 'open in browser'
+Enjoy
+
+Tech
+
+HTML5
+CSS3
+JavaScript
+jQuery
+AJAX
+Weather Underground API
