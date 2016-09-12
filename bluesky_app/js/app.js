@@ -1,8 +1,8 @@
 jQuery(document).ready(function($) {
 
 	var getWeather = function() {
-		$("h2#responseMessage, h1#location, section#dataSection p").empty();
-		$("section#dataSection, h2#responseMessage, h1#location, section#dataSection p").css("display", "none");
+		$("h2#responseMessage, h1#location, section#dataSection ul li").empty();
+		$("section#dataSection, h2#responseMessage, h1#location, section#dataSection ul li").css("display", "none");
 
 		var inputZipCode = document.getElementById("zipcode").value;
 
