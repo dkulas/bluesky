@@ -77,7 +77,6 @@ body {
 	font-size: 1.5em;
 	outline: none;
 	border: 1px solid #3399ff;
-	padding: 5px;
 }
 
 .centerText {
@@ -236,7 +235,18 @@ footer p strong a {
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Portrait */
@@ -245,6 +255,18 @@ footer p strong a {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+  	section#dataSection {
+  		width: 80%;
+  	}
+
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Landscape */
@@ -253,7 +275,18 @@ footer p strong a {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -263,7 +296,18 @@ footer p strong a {
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Portrait */
@@ -272,6 +316,18 @@ footer p strong a {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+  	section#dataSection {
+  		width: 80%;
+  	}
+
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Landscape */
@@ -280,7 +336,18 @@ footer p strong a {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -290,7 +357,18 @@ footer p strong a {
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Portrait */
@@ -299,7 +377,18 @@ footer p strong a {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Landscape */
@@ -308,7 +397,18 @@ footer p strong a {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* ----------- iPhone 6+ ----------- */
@@ -318,7 +418,18 @@ footer p strong a {
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Portrait */
@@ -327,7 +438,18 @@ footer p strong a {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
 
 /* Landscape */
@@ -336,5 +458,16 @@ footer p strong a {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+  	section#dataSection {
+  		width: 80%;
+  	}
 
+  	input#zipcode {
+  		border-radius: 25px;
+  	}
+
+  	input#submitBtn {
+  		border-radius: 25px;
+  		margin-top: 10px;
+  	}
 }
