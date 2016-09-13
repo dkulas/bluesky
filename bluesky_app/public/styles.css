@@ -162,6 +162,10 @@ section#dataSection {
 	display: none;
 }
 
+section#weather-section {
+  margin-top: 10px;
+}
+
 section#dataSection ul li {
 	margin: 10px 0 0 0;
 	word-wrap: break-word;
@@ -198,6 +202,11 @@ li#forecast a {
 img {
 	height: 16px;
 	width: 16px;
+  transition: all .1s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.5);
 }
 
 footer {
