@@ -202,7 +202,7 @@ li#forecast a {
 img {
 	height: 16px;
 	width: 16px;
-  transition: all .1s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 img:hover {
