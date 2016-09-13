@@ -165,11 +165,12 @@ section#dataSection {
 section#dataSection ul li {
 	margin: 10px 0 0 0;
 	word-wrap: break-word;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 h2#responseMessage {
-	margin-top: 10px;
+  width: 300px;
+	margin: 10px auto;
 	padding: 10px 15px;
 	background-color: #ff8080;
 	border: 2px solid red;

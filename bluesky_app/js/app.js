@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 
 	  	success: function(parsed_json) {
 
-	  		if (parsed_json['location'] === undefined) {
+	  		if (!("current_observation" in parsed_json)) {
 
 	  			$("h2#responseMessage").append("Please enter a valid US zip-code").fadeIn();
 	  			$("h2#responseMessage").css({
