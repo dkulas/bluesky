@@ -164,10 +164,8 @@ section#dataSection {
 
 section#dataSection ul li {
 	margin: 10px 0 0 0;
-}
-
-ul li {
 	word-wrap: break-word;
+  letter-spacing: 2px;
 }
 
 h2#responseMessage {
@@ -187,6 +185,7 @@ h1#location {
 	padding: 0 0 5px 0;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+  letter-spacing: 2px;
 }
 
 li#forecast a {
