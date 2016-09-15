@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
 
 	  	error: function(jqXHR, textStatus, errorThrown) {
 
-	  		$("h2#responseMessage").append("Error: " + textStatus + " / " + errorThrown);
+	  		$("h2#responseMessage").append("Error: " + jqXHR.responseText);
 	  		$("h2#responseMessage").css({
 	  			"display": "block"
 	  		});
