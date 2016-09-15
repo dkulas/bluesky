@@ -1,7 +1,7 @@
 **********
 *Blue Sky*
 **********
-A weather website application that is powered by Weather Underground and gives a weather snap-shot of whatever US zipcode you enter
+Blue Sky is a web-app that is powered by Weather Underground and gives a weather snap-shot of whatever US zipcode you enter
 
 **************
 *Instructions*
