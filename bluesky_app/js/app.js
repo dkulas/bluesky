@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 
 		$.ajax({
 
-	  	url: "http://api.wunderground.com/api/8e21eb7dbff0cf15/geolookup/conditions/q/" + inputZipCode + ".json",
+	  	url: "https://api.wunderground.com/api/8e21eb7dbff0cf15/geolookup/conditions/q/" + inputZipCode + ".json",
 	  	dataType: "jsonp",
 
 	  	error: function(jqXHR, textStatus, errorThrown) {
