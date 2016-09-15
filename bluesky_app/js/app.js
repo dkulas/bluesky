@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
 	  			"display": "block"
 	  		});
 
-	  		console.log("Error: " + textStatus + ". " + errorThrown);
+	  		console.log("Error: " + jqXHR.responseText);
 
 	  	},
 
