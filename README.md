@@ -12,9 +12,11 @@ Open index.html with a text editor (like Sublime Text)
 
 Right-click somewhere, anywhere, on the document until you see an option that says 'open in browser'
 
-Click 'open in browser'
+Click 'open in browser' and enjoy
 
-Enjoy
+OR
+
+Visit http://soldier-multitask-48612.netlify.com/
 
 ******
 *Tech*
