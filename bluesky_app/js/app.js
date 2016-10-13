@@ -50,7 +50,7 @@ jQuery(document).ready(function($) {
 		  			$("body").css("background", "-linear-gradient(top, #ffe6e6 0%, #fff 100%)");
 		  			$("body").css("background", "-moz-linear-gradient(top, #ffe6e6 0%, #fff 100%)");
 
-		  		} else if (temp_f > 45 && temp_f < 75) {
+		  		} else if (temp_f > 50 && temp_f < 75) {
 
 		  			$("body").css("background", "-webkit-linear-gradient(top, #e6ffe6 0%, #fff 100%)");
 		  			$("body").css("background", "-linear-gradient(top, #e6ffe6 0%, #fff 100%)");
