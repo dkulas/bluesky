@@ -6,6 +6,8 @@ jQuery(document).ready(function($) {
 
 		var inputZipCode = document.getElementById("zipcode").value;
 
+		$("div.cssload-container").css("display", "block");
+
 		$.ajax({
 
 	  	url: "https://api.wunderground.com/api/8e21eb7dbff0cf15/geolookup/conditions/q/" + inputZipCode + ".json",
@@ -23,6 +25,8 @@ jQuery(document).ready(function($) {
 	  	},
 
 	  	success: function(parsed_json) {
+
+	  		$("div.cssload-container").css("display", "none");
 
 	  		if (!("current_observation" in parsed_json)) {
 
