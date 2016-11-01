@@ -11,47 +11,48 @@
 </head>
 <body>
 
-<!-- [if IE]>
-	alert("Shame on you for using Internet Explorer!  Do you still get your milk delivered or pay a nickle for a movie ticket?  Didn't think so.  Try FireFox or Chrome for a better experience.  Thank you");
-<![endif]-->
+	<div class="page-wrap">
+		<!-- [if IE]>
+			alert("Shame on you for using Internet Explorer!  Do you still get your milk delivered or pay a nickle for a movie ticket?  Didn't think so.  Try FireFox or Chrome for a better experience.  Thank you");
+		<![endif]-->
+		<noscript>
+			<div id="noscript" class="centerText">
+				<strong>Blue Sky</strong> requires JavaSript in order to work
+			</div>
+		</noscript>
 
-<noscript>
-	<div id="noscript" class="centerText">
-		<strong>Blue Sky</strong> requires JavaSript in order to work
+		<h1 id="title">Blue Sky&#9729;</h1>
+
+		<main>
+			<section>
+				<form id="getWeather" class="centerText" method="get">
+					<input required type="number" name="zipcode" id="zipcode" placeholder="Search zip" class="shadow inputSimilarities centerText" autofocus="true" autocomplete="off">
+					<input type="button" form="getWeather" value="Go" id="submitBtn" class="shadow inputSimilarities hoverColorTransition">
+				</form>
+			</section>
+			<div class="cssload-container">
+				<div class="cssload-speeding-wheel"></div>
+			</div>
+			<h2 id="responseMessage" class="centerText"></h2>
+			<section id="weather-section">
+				<section id="dataSection">
+				<h1 id="location"></h1>
+				<ul>
+					<li id="temp"></li>
+					<li id="feelsLikeTemp"></li>
+					<li id="wind"></li>
+					<li id="weatherConditions"></li>
+					<li id="humidity"></li>
+					<li id="forecast"></li>
+				</ul>
+			</section>
+			</section>
+		</main>
 	</div>
-</noscript>
 
-<h1 id="title">Blue Sky&#9729;</h1>
-
-<main>
-	<section>
-		<form id="getWeather" class="centerText" method="get">
-			<input required type="number" name="zipcode" id="zipcode" placeholder="Search zip" class="shadow inputSimilarities centerText" autofocus="true" autocomplete="off">
-			<input type="button" form="getWeather" value="Go" id="submitBtn" class="shadow inputSimilarities hoverColorTransition">
-		</form>
-	</section>
-	<div class="cssload-container">
-		<div class="cssload-speeding-wheel"></div>
-	</div>
-	<h2 id="responseMessage" class="centerText"></h2>
-	<section id="weather-section">
-		<section id="dataSection">
-		<h1 id="location"></h1>
-		<ul>
-			<li id="temp"></li>
-			<li id="feelsLikeTemp"></li>
-			<li id="wind"></li>
-			<li id="weatherConditions"></li>
-			<li id="humidity"></li>
-			<li id="forecast"></li>
-		</ul>
-	</section>
-	</section>
-</main>
-
-<footer>
-	<p class="centerText">created with <span id="heart">&#10084;</span> by <strong><a href="http://dannykulas.com/" target="_blank" class="hoverColorTransition">Danny Kulas</a></strong> | Powered by <strong><a href="https://www.wunderground.com" target="_blank" class="hoverColorTransition">Weather Underground</a></strong></p>
-</footer>
-<script type="text/javascript" src="js/app.js"></script>
+	<footer class="site-footer">
+		<p class="centerText">created with <span id="heart">&#10084;</span> by <strong><a href="http://dannykulas.com/" target="_blank" class="hoverColorTransition">Danny Kulas</a></strong> | Powered by <strong><a href="https://www.wunderground.com" target="_blank" class="hoverColorTransition">Weather Underground</a></strong></p>
+	</footer>
+	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
