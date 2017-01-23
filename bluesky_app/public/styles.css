@@ -73,20 +73,6 @@ body {
   flex-direction: column;
 }
 
-.page-wrap {
-  min-height: 100%;
-  margin-bottom: -21px;
-}
-
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-
-.site-footer, .page-wrap:after {
-  height: 21px;
-}
-
 main {
   flex: 1;
 }
@@ -227,19 +213,21 @@ img:hover {
   transform: scale(1.5);
 }
 
-footer p {
+p.footerText {
 	padding: 0 0 5px 0;
+  position: absolute;
+  bottom: 5px;
 }
 
-footer p span {
+p.footerText span {
 	color: red;
 }
 
-footer p strong {
+p.footerText strong {
 	font-weight: bold;
 }
 
-footer p strong a {
+p.footerText strong a {
 	color: black;
 	text-decoration: none;
 }
