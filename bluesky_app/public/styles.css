@@ -213,26 +213,6 @@ img:hover {
   transform: scale(1.5);
 }
 
-p.footerText {
-  width: 100%;
-	padding: 0 0 5px 0;
-  position: absolute;
-  bottom: 5px;
-}
-
-p.footerText span {
-	color: red;
-}
-
-p.footerText strong {
-	font-weight: bold;
-}
-
-p.footerText strong a {
-	color: black;
-	text-decoration: none;
-}
-
 /*AJAX Loader*/
 
 .cssload-container {
