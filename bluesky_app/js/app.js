@@ -6,6 +6,8 @@ jQuery(document).ready(function($) {
 
 		var inputZipCode = document.getElementById("zipcode").value;
 
+		$("div.cssload-container").css("display", "block");
+
 		$.ajax({
 
 	  	url: "https://api.wunderground.com/api/8e21eb7dbff0cf15/geolookup/conditions/q/" + inputZipCode + ".json",
@@ -23,6 +25,8 @@ jQuery(document).ready(function($) {
 	  	},
 
 	  	success: function(parsed_json) {
+
+	  		$("div.cssload-container").css("display", "none");
 
 	  		if (!("current_observation" in parsed_json)) {
 
@@ -50,7 +54,7 @@ jQuery(document).ready(function($) {
 		  			$("body").css("background", "-linear-gradient(top, #ffe6e6 0%, #fff 100%)");
 		  			$("body").css("background", "-moz-linear-gradient(top, #ffe6e6 0%, #fff 100%)");
 
-		  		} else if (temp_f > 45 && temp_f < 75) {
+		  		} else if (temp_f > 50 && temp_f < 75) {
 
 		  			$("body").css("background", "-webkit-linear-gradient(top, #e6ffe6 0%, #fff 100%)");
 		  			$("body").css("background", "-linear-gradient(top, #e6ffe6 0%, #fff 100%)");
